@@ -1,0 +1,62 @@
+.locker-container{
+    position: absolute;
+    margin: auto;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    top: 0px;
+    /* width: 0px; */
+    /* height: 0px; */
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 100px;
+    overflow: hidden;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5f6f6+0,dbdce2+21,b8bac6+49,dddfe3+80,f5f6f6+100;Grey+Pipe */
+    background: #f5f6f6; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f5f6f6 0%, #dbdce2 21%, #b8bac6 49%, #dddfe3 80%, #f5f6f6 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f6f6), color-stop(21%,#dbdce2), color-stop(49%,#b8bac6), color-stop(80%,#dddfe3), color-stop(100%,#f5f6f6)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 ); /* IE6-9 */
+    transition: all 0.3s linear;
+    -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
+}
+
+.locker-dial li {
+    list-style: none;
+    position: absolute;
+    border: 1px solid #A0A0A0;
+    width: 100px;
+    height: 100px;
+    transform-origin: 100% 100%;
+    box-shadow: inset 13px 50px 17px 4px black;
+    -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
+}
+
+.locker-dial li a{
+	text-decoration: none;
+	font-size: 25px;
+	color: #FAFAFA;
+    text-shadow: 0px 2px #323232;
+    -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
+}
+
+.locker-container .mask {
+    width: 50%;
+    height: 50%;
+    border: 1px solid;
+    border-radius: 100%;
+    background-color: white;
+    z-index: 10;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    box-shadow: inset 0px 2px 2px 2px #898989;
+    transition: all 0.3s linear;
+    -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
+}
+

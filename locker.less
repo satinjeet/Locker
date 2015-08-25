@@ -1,0 +1,30 @@
+@angle: 36;
+
+.dial-digits(10);
+
+.dial-digits(@n, @i: 1) when (@i =< @n) {
+  .dial-digit:nth-child(@{i}) {
+    a {
+        position: absolute;
+        transform-origin: 25% 100%;
+        transform: skew(-54deg) rotate(-72deg);
+        margin: auto;
+        text-align: center;
+        width: 50%;
+        height: 50%;
+        // background: #d3d3d3;
+        margin: 50% 0 0 50%;
+    }
+    transform: rotate(@i * @angle - 36deg) skew(54deg);
+    // background: #d2d3d3;
+  }
+  .dial-digits(@n, (@i + 1));
+}
+
+.locker-container:hover{
+    .mask {
+        border: 1px solid #439076;
+    }
+    border: 1px solid #439076;
+    box-shadow: 0px 0px 3px 3px #439076;
+}
